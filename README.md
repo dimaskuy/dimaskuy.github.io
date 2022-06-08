@@ -5,7 +5,8 @@ My Portfolio created using:
 - CSS.
 - TailwindCSS Framework.
 - JavaScript for the interactivity.
-- An icon from [Bootstrap Icon](https://icons.getbootstrap.com/). <br>
+- An icon from [Bootstrap Icon](https://icons.getbootstrap.com/). 
+<br>
 🧑‍💻 View Demo ➡️ [https://dimaskuy.github.io]
 
 
