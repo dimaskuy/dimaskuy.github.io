@@ -1,7 +1,11 @@
 # ✨ My Personal Portfolio
 
-My Portfolio created using TailwindCSS, and some JavaScript for the interactivity.
-
-[https://dimaskuy.github.io]
+My Portfolio created using:
+- HTML.
+- CSS.
+- TailwindCSS Framework.
+- JavaScript for the interactivity.
+- An icon from [Bootstrap Icon](https://icons.getbootstrap.com/). <br>
+🧑‍💻 View Demo ➡️ [https://dimaskuy.github.io]
 
 
