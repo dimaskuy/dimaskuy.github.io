@@ -640,10 +640,6 @@ video {
   top: 100%;
 }
 
-.bottom-14 {
-  bottom: 3.5rem;
-}
-
 .-bottom-0 {
   bottom: -0px;
 }
@@ -1300,6 +1296,10 @@ video {
   padding-top: 6rem;
 }
 
+.pt-\[4rem\] {
+  padding-top: 4rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -1338,6 +1338,10 @@ video {
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pt-\[5rem\] {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -2280,10 +2284,6 @@ body::-webkit-scrollbar-thumb:hover {
 
   .lg\:right-0 {
     right: 0px;
-  }
-
-  .lg\:bottom-20 {
-    bottom: 5rem;
   }
 
   .lg\:m-4 {
