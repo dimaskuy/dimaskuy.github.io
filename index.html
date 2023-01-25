@@ -12,11 +12,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dimaskuy.github.io/">
+    <meta property="og:title" content="DimasRS - Personal Portfolio!">
+    <meta property="og:description" content="Hello and welcome to my personal portfolio! You can find about me, projects, and certificates in this portfolio. I really appreciate it if you contact me!">
+    <meta property="og:image" content="img/logo-light.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="manifest" href="">
     <script>
+      const faviconApple = document.querySelector('link[rel=apple-touch-icon]');
+      const favicon = document.querySelectorAll('link[rel=icon]');
+      const faviconManifest = document.querySelector('link[rel=manifest]');
       if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
+        faviconApple.setAttribute('href', 'img/favicon/light/apple-touch-icon.png');
+        favicon.forEach(icon => icon.setAttribute('href', `img/favicon/light/favicon-${icon.attributes.sizes.value}.png`));
+        faviconManifest.setAttribute('href', 'img/favicon/light/site.webmanifest');
       } else {
         document.documentElement.classList.remove("dark");
+        faviconApple.setAttribute('href', 'img/favicon/dark/apple-touch-icon.png');
+        favicon.forEach(icon => icon.setAttribute('href', `img/favicon/dark/favicon-${icon.attributes.sizes.value}.png`));
+        faviconManifest.setAttribute('href', 'img/favicon/dark/site.webmanifest');
       }
     </script>
     <title>DimasRS - Personal Portfolio!</title>
