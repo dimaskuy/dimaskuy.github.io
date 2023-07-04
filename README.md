@@ -1,5 +1,5 @@
 # ✨ My Personal Portfolio
-You can see my bio about me and some of my favorite projects I built. Please feel free to also send any message to me on the contact form 😎😎.
+You can see my bio about me and some of my favorite projects I built. Please feel free to also send any message to me on the contact form 😎.
 
 # Tools
 My Portfolio was created using:
