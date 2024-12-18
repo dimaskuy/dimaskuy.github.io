@@ -1,5 +1,5 @@
 # ✨ My Personal Portfolio
-👉 https://dimaskuy.github.io/ <br>
+👉 https://dimaskuy.github.io/ or https://dimaskuy.netlify.app/ <br>
 You can see my bio about me and some of my favorite projects I built. Please feel free to also send any message to me on the contact form 😎. <br> (sorry about low-resolution photo of myself)
 
 # Tools
