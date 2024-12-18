@@ -182,7 +182,7 @@ form.addEventListener("submit", (e) => {
   // btnSubmit.classList.add("hidden");
   // btnLoading.classList.add("block");
 
-  fetch(scriptURL, { method: "POST", mode: 'no-cors', body: new FormData(form) })
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then((response) => {
       console.log("Success!", response);
       Swal.fire({
