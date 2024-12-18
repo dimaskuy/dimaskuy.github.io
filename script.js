@@ -170,7 +170,7 @@ if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.match
 }
 
 // Send the contact form data to Google Sheets
-const scriptURL = "https://script.google.com/macros/s/AKfycbwgyLDcNIYi59HaidZN2BhcjyhsVxpd4w17ax9nuG0Eqz6pcKMeWpu0OQPk9PvCeUAJ/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbyKmltY8fBe_qbZBwvvZzPw3Id6kFZxoWJMWt4b_XIZNKR8q1oWEGhlOak2Sz856tm6/exec";
 const form = document.querySelector(".submit-to-google-sheet");
 const btnSubmit = document.querySelector(".btn-submit");
 const btnLoading = document.querySelector(".btn-loading");
@@ -182,7 +182,11 @@ form.addEventListener("submit", (e) => {
   // btnSubmit.classList.add("hidden");
   // btnLoading.classList.add("block");
 
-  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+  fetch(scriptURL, {
+    method: "POST",
+    mode: "no-cors",
+    body: new FormData(form),
+  })
     .then((response) => {
       console.log("Success!", response);
       Swal.fire({
